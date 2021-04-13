@@ -20,8 +20,8 @@ class Jerry{
 
     void g(){
         Tom cat1=new Tom();
-        cat1.weight=10;
-        cat1.f();
+        //cat1.weight=10;
+        //cat1.f();
     }
 
 }
