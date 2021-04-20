@@ -17,7 +17,12 @@ class Lader{
     }
 }
 
+class Father{
+    private String secrets;
+    public int age;
+    protected int assets;
 
+}
 
 
 
