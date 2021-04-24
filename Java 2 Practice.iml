@@ -7,5 +7,15 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://E:/政法大学/政法代课/Java程序设计/src/jar create/out/artifacts/net_mindview" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://E:/政法大学/政法代课/Java程序设计/src/jar create/out/artifacts/net_mindview" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
