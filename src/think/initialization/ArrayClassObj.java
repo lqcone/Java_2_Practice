@@ -8,6 +8,7 @@ class ArrayShow{
 
 public class ArrayClassObj {
     public static void main(String args[]){
+        //
         ArrayShow a[]=new ArrayShow[10];
         print("length of a="+a.length);
         for(int i=0;i<a.length;i++){
