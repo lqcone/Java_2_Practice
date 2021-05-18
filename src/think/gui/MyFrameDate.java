@@ -8,33 +8,36 @@ import java.util.Date;
 import java.util.Random;
 
 public class MyFrameDate extends JFrame{
-    JLabel dateLabel,randomPickLabel,asignValue;
+    MyLabel dateLabel,randomPickLabel,asignValue;
     JTextField t1;
     public MyFrameDate(String name){
         super(name);
+        Container contentPane=getContentPane();
+        contentPane.setLayout(new FlowLayout());
         this.setLocation(100,100);
         this.setBounds(400,300,300,300);
+
 
        // this.setVisible(true);
     }
     public MyFrameDate(){
+        Container contentPane=getContentPane();
+        contentPane.setLayout(new FlowLayout());
         this.setLocation(100,100);
         this.setBounds(400,300,300,300);
 
        // this.setVisible(true);
     }
     public void showTime(){
-        FlowLayout layout=new FlowLayout();
-        setLayout(layout);
-        layout.setAlignment(FlowLayout.LEFT);
+
         JButton b1=new JButton("时间");
 
         JButton b2=new JButton("点名");
         JButton b3=new JButton("正弦计算");
-        t1=new JFormattedTextField();
-        dateLabel=new JLabel("点击开始显示日期");
-        randomPickLabel=new JLabel("点击开始点名");
-        asignValue=new JLabel("点击开始计算");
+        t1=new JTextField(4);
+        dateLabel=new MyLabel("点击开始显示日期");
+        randomPickLabel=new MyLabel("点击开始点名");
+        asignValue=new MyLabel("点击开始计算");
 
         b1.setPreferredSize(new Dimension(70,20));
 
