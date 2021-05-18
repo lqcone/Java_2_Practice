@@ -1,6 +1,8 @@
 package book;
 
 
+import static net.mindview.util.Print.print;
+
 class 植物{}
 
 class Lader{
@@ -21,6 +23,20 @@ class Father{
     private String secrets;
     public int age;
     protected int assets;
+    String s="Hello world!";
+
+
+    public static void main(String[] args) {
+        String s2="夏天来了";
+        String s3="夏天来了";
+        //print(s2==s3);
+        int x;
+        String s="999";
+        x=Integer.parseInt(s);
+        //print(new Father());
+        StringBuffer str=new StringBuffer("你好");
+        print(str);
+    }
 
 }
 
